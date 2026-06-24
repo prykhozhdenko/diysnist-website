@@ -7,6 +7,10 @@
   --border-color: #cccccc;
 }
 
+* {
+  font-family: Roboto, sans-serif;
+}
+
 *,
 *::before,
 *::after {
@@ -45,16 +49,34 @@ body {
   max-width: var(--max-width);
   width: 100%;
   font-size: 2em;
-  margin-bottom: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
+.UiSlogan {
+  margin-bottom: 1rem;
+  max-width: var(--max-width);
+  width: 100%;
+  font-size: 0.7rem;
+  text-align: justify;
+  text-align-last: justify;
+  font-family: "Martian Mono", sans-serif;
+}
+
+.UiSlogan span {
+  font-family: inherit;
+}
+
+.UiDiiaTitle {
+  display: flex;
+  align-items: center;
+}
+
 .UiInDev {
   font-size: 0.7rem;
-  align-self: flex-end;
+  margin-left: auto;
 }
 
 .UiTop {
